@@ -5,7 +5,7 @@ Some operations of kafka with springboot
 ###1. install kafka  
 https://www.cnblogs.com/justuntil/p/8033792.html
 
-###2. install zookeeper
+###2. install zookeeper  
 http://www.cnblogs.com/wangyangliuping/p/5546506.html
 
 ###3. close firewall
