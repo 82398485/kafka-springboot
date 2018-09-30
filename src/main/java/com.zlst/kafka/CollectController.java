@@ -25,7 +25,6 @@ public class CollectController {
     public Response sendKafka(HttpServletRequest request, HttpServletResponse response) {
         try {
             String message = request.getParameter("message");
-            message = "12331231";
             logger.info("kafka的消息={}", message);
 
             kafkaTemplate.send("test", "key", message);
