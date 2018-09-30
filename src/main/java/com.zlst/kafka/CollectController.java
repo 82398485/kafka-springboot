@@ -26,7 +26,6 @@ public class CollectController {
         try {
             String message = request.getParameter("message");
             logger.info("kafka的消息={}", message);
-
             kafkaTemplate.send("test", "key", message);
             logger.info("发送kafka成功.");
             return new Response(ResultCode.SUCCESS, "发送kafka成功", null);
