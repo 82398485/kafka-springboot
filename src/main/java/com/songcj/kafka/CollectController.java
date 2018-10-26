@@ -1,7 +1,7 @@
-package com.zlst.kafka;
+package com.songcj.kafka;
 
-import com.zlst.common.Response;
-import com.zlst.common.ResultCode;
+import com.songcj.common.Response;
+import com.songcj.common.ResultCode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
